@@ -11,29 +11,29 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
-	imageBackground: background.jpg,
+	name: 'Orion',
+	imageBackground: true,
 	openInNewTab: true,
-	twelveHourFormat: false,
+	twelveHourFormat: true,
 
 	// Greetings
-	greetingMorning: 'Good morning!',
-	greetingAfternoon: 'Good afternoon,',
-	greetingEvening: 'Good evening,',
-	greetingNight: 'Go to Sleep!',
+	greetingMorning: 'Yet dawn is ever the hope of men',
+	greetingAfternoon: 'A host of golden daffodils',
+	greetingEvening: 'Tramontate, stelle! All’alba vincerò!',
+	greetingNight: 'All woods there be, must end at last',
 
 	// Layout
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
+	weatherKey: 'ab5c57af7b7d75130b445fc6fd863672', // Write here your API Key
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	defaultLatitude: '31.582045',
+	defaultLongitude: '74.329376',
 
 	// Autochange
 	autoChangeTheme: true,
@@ -42,8 +42,8 @@ const CONFIG = {
 	changeThemeByOS: true,
 
 	// Autochange by hour options (24hrs format, string must be in: hh:mm)
-	changeThemeByHour: false,
-	hourDarkThemeActive: '18:30',
+	changeThemeByHour: true,
+	hourDarkThemeActive: '17:30',
 	hourDarkThemeInactive: '07:00',
 
 	// ┌┐ ┬ ┬┌┬┐┌┬┐┌─┐┌┐┌┌─┐
