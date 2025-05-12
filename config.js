@@ -31,7 +31,7 @@ const CONFIG = {
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
-	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
+	trackLocation: false, // If false or an error occurs, the app will use the lat/lon below
 	defaultLatitude: '31.582045',
 	defaultLongitude: '74.329376',
 
@@ -140,22 +140,18 @@ const CONFIG = {
 			links: [
 				{
 					name: 'Music',
-					icon: 'music'
 					link: 'https://youtube.com/playlist?list=PLNBo2OH8feNbogpDe5zj2o7w0mNIY8ZS2&feature=shared',
 				},
 				{
 					name: 'Learning',
-					icon: 'graduation-cap'
 					link: 'https://youtube.com/playlist?list=PLT98CRl2KxKGj-VKtApD8-zCqSaN2mD4w&feature=shared',
 				},
 				{
 					name: 'Entertainment',
-					icon: 'drama'
 					link: 'https://youtube.com/playlist?list=PLNBo2OH8feNZIh9iEcGtPTntWVSQmqBJz&feature=shared',
 				},
 				{
 					name: 'Podcasts',
-					icon: 'headset'
 					link: 'https://www.youtube.com/@OfflineTVPodcast/podcasts',
 				},
 			],
@@ -166,22 +162,18 @@ const CONFIG = {
 			links: [
 				{
 					name: 'AlJazeera',
-					icon: 'tree-palm'
 					link: 'https://www.aljazeera.com/',
 				},
 				{
 					name: 'HackerNews',
-					icon: 'cog'
 					link: 'https://news.ycombinator.com/',
 				},
 				{
 					name: 'TolkienGateway',
-					icon: 'book-open-text'
 					link: 'https://tolkiengateway.net/wiki/Main_Page',
 				},
 				{
 					name: 'PoetryFoundation',
-					icon: 'flower'
 					link: 'https://www.poetryfoundation.org/',
 				},
 			],
