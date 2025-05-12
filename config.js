@@ -17,10 +17,10 @@ const CONFIG = {
 	twelveHourFormat: true,
 
 	// Greetings
-	greetingMorning: 'Yet dawn is ever the hope of men',
-	greetingAfternoon: 'A host of golden daffodils',
-	greetingEvening: 'Tramontate, stelle! All’alba vincerò!',
-	greetingNight: 'All woods there be, must end at last',
+	greetingMorning: 'Yet dawn is ever the hope of men :: ',
+	greetingAfternoon: 'A host of golden daffodils :: ',
+	greetingEvening: 'Tramontate, stelle! All’alba vincerò! :: ',
+	greetingNight: 'All woods there be, must end at last :: ',
 
 	// Layout
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
@@ -55,25 +55,25 @@ const CONFIG = {
 			id: '1',
 			name: 'Github',
 			icon: 'github',
-			link: 'https://github.com/',
+			link: 'https://github.com/OrionShinesBright/',
 		},
 		{
 			id: '2',
 			name: 'Mail',
 			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			link: 'https://mail.google.com/',
 		},
 		{
 			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			name: 'ArchWiki',
+			icon: 'scroll-text',
+			link: 'https://wiki.archlinux.org/title/Main_page',
 		},
 		{
 			id: '4',
-			name: 'Calendar',
-			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
+			name: 'GeeksForGeeks',
+			icon: 'code-xml',
+			link: 'https://www.geeksforgeeks.org/',
 		},
 		{
 			id: '5',
@@ -83,9 +83,9 @@ const CONFIG = {
 		},
 		{
 			id: '6',
-			name: 'Odysee',
+			name: 'Youtube',
 			icon: 'youtube',
-			link: 'https://odysee.com/',
+			link: 'https://www.youtube.com/',
 		},
 	],
 
@@ -135,46 +135,54 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'youtube',
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Music',
+					icon: 'music'
+					link: 'https://youtube.com/playlist?list=PLNBo2OH8feNbogpDe5zj2o7w0mNIY8ZS2&feature=shared',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Learning',
+					icon: 'graduation-cap'
+					link: 'https://youtube.com/playlist?list=PLT98CRl2KxKGj-VKtApD8-zCqSaN2mD4w&feature=shared',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Entertainment',
+					icon: 'drama'
+					link: 'https://youtube.com/playlist?list=PLNBo2OH8feNZIh9iEcGtPTntWVSQmqBJz&feature=shared',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Podcasts',
+					icon: 'headset'
+					link: 'https://www.youtube.com/@OfflineTVPodcast/podcasts',
 				},
 			],
 		},
 		{
-			icon: 'coffee',
+			icon: 'rss',
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: 'AlJazeera',
+					icon: 'tree-palm'
+					link: 'https://www.aljazeera.com/',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'HackerNews',
+					icon: 'cog'
+					link: 'https://news.ycombinator.com/',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'TolkienGateway',
+					icon: 'book-open-text'
+					link: 'https://tolkiengateway.net/wiki/Main_Page',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'PoetryFoundation',
+					icon: 'flower'
+					link: 'https://www.poetryfoundation.org/',
 				},
 			],
 		},
