@@ -14,13 +14,13 @@ const CONFIG = {
 	name: 'Orion',
 	imageBackground: true,
 	openInNewTab: true,
-	twelveHourFormat: true,
+	twelveHourFormat: false,
 
 	// Greetings
-	greetingMorning: 'Yet dawn is ever the hope of men :: ',
-	greetingAfternoon: 'A host of golden daffodils :: ',
-	greetingEvening: 'Tramontate, stelle! All’alba vincerò! :: ',
-	greetingNight: 'All woods there be, must end at last :: ',
+	greetingMorning: 'Yet dawn is ever the hope of men .. ',
+	greetingAfternoon: 'A host of golden daffodils .. ',
+	greetingEvening: 'Tramontate, stelle! All’alba vincerò! .. ',
+	greetingNight: 'All woods there be, must end at last .. ',
 
 	// Layout
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
